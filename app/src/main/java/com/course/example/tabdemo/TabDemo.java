@@ -2,6 +2,7 @@ package com.course.example.tabdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.webkit.WebViewClient;
 import android.widget.TabHost;
 import android.widget.Button;
 import android.widget.EditText;
@@ -72,6 +73,16 @@ public class  TabDemo extends Activity {
 		button = (Button)findViewById(R.id.Button01);
 		text = (EditText)findViewById(R.id.EditText01);
 		webView = (WebView)findViewById(R.id.web);
+
+		//intercept URL loading and load in widget
+		webView.setWebViewClient(new WebViewClient(){
+
+			public boolean shouldOverrideUrlLoading(WebView view, String url){
+				view.loadUrl(url);
+				return true;
+			}
+
+		});
 		
 		//set listeners for web tab
 		button.setOnClickListener( new OnClickListener() {
