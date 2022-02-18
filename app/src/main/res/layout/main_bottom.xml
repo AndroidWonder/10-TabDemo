@@ -22,6 +22,7 @@
 				android:orientation="vertical"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
+				android:background="#ff7DBFAA"
 				android:layout_marginTop="10dp"
 				>
 				<CheckBox android:id="@+id/check01"
