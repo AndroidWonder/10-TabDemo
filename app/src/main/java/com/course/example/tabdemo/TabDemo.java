@@ -30,7 +30,7 @@ public class TabDemo extends Activity {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        setContentView(R.layout.main_bottom);
+        setContentView(R.layout.main);
 
         TabHost tabs = (TabHost) findViewById(R.id.tabhost);
         tabs.setup();
