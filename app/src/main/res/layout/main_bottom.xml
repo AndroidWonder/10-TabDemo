@@ -41,11 +41,12 @@
 				android:orientation="vertical"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
-				>
+				android:background="#EAD7D7">
 
 				<LinearLayout android:orientation="horizontal"
 					android:layout_width="match_parent"
-					android:layout_height="wrap_content">
+					android:layout_height="wrap_content"
+					>
 
 					<EditText android:id="@+id/EditText01"
 						android:layout_width="0dp"
@@ -61,8 +62,10 @@
 				</LinearLayout>
 				<WebView android:id="@+id/web"
 					android:layout_width="match_parent"
-					android:layout_height="match_parent" />
+					android:layout_height="match_parent"
+					android:layout_margin="20dp"/>
 			</LinearLayout>
+
 
 			<!--  third tab -->
 			<LinearLayout android:id="@+id/tab3"
