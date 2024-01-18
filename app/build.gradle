@@ -1,11 +1,10 @@
 apply plugin: 'com.android.application'
 android {
     compileSdk 33
-    buildToolsVersion '33.0.1'
 
     defaultConfig {
         applicationId "com.course.example.tabdemo"
-        minSdkVersion 30
+        minSdkVersion 28
         targetSdkVersion 33
     }
 
@@ -15,4 +14,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    namespace 'com.course.example.tabdemo'
 }
+ 
