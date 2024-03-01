@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/10-TabDemo.iml" filepath="$PROJECT_DIR$/10-TabDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/10-TabDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/10-TabDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/10-TabDemo.app.unitTest.iml" />
     </modules>
   </component>
 </project>
